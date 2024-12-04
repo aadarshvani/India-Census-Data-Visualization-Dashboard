@@ -10,7 +10,7 @@ st.set_page_config(layout='wide')
 
 ###### -Data Cleaning and Pre-Processing- ########
 
-df = pd.read_csv("D:\\DSMP\\Week 9 - Data Visualization\\Project\\India_Census.csv")
+df = pd.read_csv("India_Census.csv")
 
 list_of_states= list(df['State'].unique())
 list_of_states.sort()
